@@ -1,0 +1,386 @@
+
+.image_icon {
+	-webkit-filter: contrast(160%);
+	-webkit-filter: saturate(100);
+	-webkit-filter: brightness(1.00);
+	-webkit-animation: hue 30s infinite linear;
+}
+
+.DetailsSlab {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	line-height:12px;
+	padding-top: 6px;
+	padding-left: 70px;
+	color: #666;
+}
+
+.cpuIcon {
+	background-image: url(../images/cpu-icon-64.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 64px;
+  height: 64px;
+}
+
+.memoryIcon {
+	background-image: url(../images/memory-icon-72.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 72px;
+  height: 38px;
+}
+
+.processIcon {
+	background-image: url(../images/process-icon-64.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 64px;
+  height: 65px;
+  float: left;
+}
+
+.networkIcon {
+	background-image: url(../images/network-card-icon-64.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 64px;
+  height: 41px;
+  float: left;
+  margin-right: 10px;
+}
+
+.networkIcon-32 {
+	background-image: url(../images/network-card-icon-32.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 32px;
+  height: 21px;
+  float: left;
+  margin-right: 6px;
+}
+
+.icon_scroll {
+	width: 800px;
+  height: 70px;
+  overflow: auto;
+	/* overflow-y: hidden; */
+}
+
+.centered {
+	margin: 0 auto;
+	top: 50%;	
+}
+
+.diskSelected {
+	-webkit-filter: contrast(160%);
+	-webkit-filter: saturate(100);
+	-webkit-filter: brightness(1.00);
+	-webkit-animation: hue 30s infinite linear;
+}
+
+.diskled {
+	width: 28px;
+  height: 8px;
+	border: 1px solid #999;
+	float: left;
+	margin-top: 0px;
+  margin-left: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.diskled.grey {
+	background: #ccc;
+}
+
+.diskled.green {
+	background: green;
+}
+
+.diskled.yellow {
+	background: yellow;
+}
+
+.diskled.red {
+	background: red;
+}
+
+.offline {
+	zindex: 999999999;
+	float: left;
+	margin-top: 20px;
+	margin-left: -30px;
+	display:block;
+	color: #888;
+	text-shadow: 1px 1px #fff;
+	font-size: 11px;
+	transform:rotate(320deg);
+	-webkit-transform:rotate(320deg);  
+}
+
+.diskIcon {
+	background-image: url(../images/disk-icon-64.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 64px;
+  height: 52px;
+  float: left;
+  margin-right: 10px;
+}
+
+.ioIcon {
+	background-image: url(../images/io-icon-64.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 72px;
+  height: 38px;
+}
+
+.hardDriveIcon {
+	margin-top: 10px;
+	margin-bottom: 4px;
+	background-image: url(../images/drive-internal-icon-48.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 48px;
+  height: 48px;
+}
+
+.cdDriveIcon {
+	margin-top: 10px;
+	margin-bottom: 4px;
+	background-image: url(../images/cdrom-icon-48.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 48px;
+  height: 48px;
+}
+
+.networkDriveIcon {
+	margin-top: 10px;
+	margin-bottom: 4px;
+	background-image: url(../images/drive-network-icon-48.png);
+	/* background-position: 1px 1px;
+	display: block; */
+	background-repeat: no-repeat;
+	width: 48px;
+  height: 48px;
+}
+
+table.tableInset {
+	background: rgba(192, 196, 211, 0.2);
+	width: 100%;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	/* border: 1px solid #647782 !important; */
+	box-shadow: 3px 3px 3px grey;
+	
+}
+
+table.tableInset th {
+	font-weight: bold;
+	border-bottom: 1px solid #999;
+}
+
+table.tableInset th,
+table.tableInset td {
+    text-align: center;
+}
+
+//----------------
+table.tableDetails {
+	background: rgba(192, 196, 211, 0.1);
+	width: 100%;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	/* border: 1px solid #647782 !important; */
+	box-shadow: 3px 3px 3px grey;
+	border: 1px solid black;
+}
+
+table.tableDetails th {
+	font-weight: bold;
+	border-bottom: 1px solid #999;
+}
+
+table.tableDetails th,
+table.tableDetails td {
+    text-align: center;
+}
+
+table.tableDetails td.large {
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: normal;
+	font-size: 200%;
+}
+
+table.tableDetails td.medium {
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: normal;
+	font-size: 150%;
+}
+
+table.tableDetails td.small {
+	font-family: Ariel;
+	font-weight: normal;
+	font-size: 150%;
+}
+
+.drive-tabs {
+  text-align: center;
+  list-style-type: none;
+	padding: 5px;
+}
+
+.drive-tabs > li {
+  float: left;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 8px;
+	line-height: 0.9;
+	border: 1px solid transparent;
+}
+
+.drive-tabs > li.active {
+	color: #eee;
+  background-color: #337ab7 !important;
+  border: 1px solid black;
+  border-style: solid;
+}
+
+.drive-tabs > li > a {
+	float: left;
+	padding: 5px;
+	padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.0;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.drive-tabs > li > a:hover {
+  border-color: #999;
+ 	background-color: rgba(51,122,183,.2) !important;
+ 	border: 1px dotted #999 !important;
+}
+
+.drive-tabs > li.active > a,
+.drive-tabs > li.active > a:hover,
+.drive-tabs > li.active > a:focus {
+	color: #eee;
+  cursor: default;
+  background-color: #337ab7 !important;
+}
+
+/* .drive-tabs > li.active > a,
+.drive-tabs > li.active > a:hover,
+.drive-tabs > li.active > a:focus {
+  color: #eee;
+  cursor: default;
+  margin-top: 3px;
+  padding-top: 10px !important;
+	padding-bottom: 10px !important;
+  background-color: #337ab7 !important;
+  border: 1px solid #ddd; */
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.java-icon { 
+		background: url(../images/java-icon.png) no-repeat top left;  
+		background-repeat: no-repeat;
+		width: 52px; height: 68px; 
+		float: left;
+		margin-right: 10px;
+}
+
+.os-icons { 
+		background: url(../images/os-icons.png) no-repeat top left;  
+		margin-right: 10px;
+		float: left;
+} 
+.os-icons.win-icon { background-position: 0px 0px; width: 64px; height: 59px;  } 
+.os-icons.linux-icon { background-position: 0px -69px; width: 64px; height: 59px;  } 
+.os-icons.redhat-icon { background-position: 0px -138px; width: 64px; height: 58px;  } 
+.os-icons.ios-icon { background-position: 0px -206px; width: 64px; height: 59px;  } 
+.os-icons.macos-icon { background-position: 0px -275px; width: 64px; height: 61px;  } 
+
+.darker {
+	color:hsl(100%,100%,50%);
+}
+
+.large {
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: normal;
+	font-size: 200%;
+}
+
+.medium {
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: normal;
+	font-size: 150%;
+	padding: 0px;
+}
+
+.small {
+	font-family: Ariel;
+	font-weight: normal;
+	font-size: 15px !important; 
+}
+
+.boxEffect {
+	position: relative;
+	width: 600px;
+	padding: 50px;
+	margin: 0 auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.boxEffect:before, .boxEffect:after {
+	position: absolute;
+	width: 80%;
+	height: 10px;
+	content: ' ';
+	left: 5px;
+	bottom: 12px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: skew(-5deg) rotate(-5deg);
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+	z-index: -1;
+} 
+
+.boxEffect:after {
+	left: auto;
+	right: 12px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}

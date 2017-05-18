@@ -1,0 +1,52 @@
+{
+    "_id" : "1",
+    "todayHeading" : "Tweet Impressions",
+    "todayCount" : 8651,
+    "todayAverage" : 13.560,
+    "todayAverageSubheading" : "Daily Average tweets",
+    "onboardedHeading" : "Clicks",
+    "onboardedCount" : 71,
+    "onboardedSubheading" : "Number of users recently hired",
+    "signupsHeading" : "Retweets",
+    "signupsCount" : 96,
+    "signupsSubheading" : "Number of sales initiated"
+}
+
+back up
+{
+    "_id" : "1",
+    "todayHeading" : "API Calls Today",
+    "todayCount" : 8651,
+    "todayAverage" : 13.560,
+    "todayAverageSubheading" : "Daily Average Duration",
+    "onboardedHeading" : "New Hires",
+    "onboardedCount" : 71,
+    "onboardedSubheading" : "Number of users recently hired",
+    "signupsHeading" : "New Sales",
+    "signupsCount" : 96,
+    "signupsSubheading" : "Number of sales initiated"
+}
+
+db.statistics.update(
+   { _id: "1" },
+   { $set:
+     { "todayHeading" : "Tweet Impressions",
+    "todayCount" : 8651,
+    "todayAverage" : 13.560,
+    "todayAverageSubheading" : "Daily Average tweets",
+    "onboardedHeading" : "Clicks",
+    "onboardedCount" : 71,
+    "onboardedSubheading" : "Number of users recently hired",
+    "signupsHeading" : "Retweets",
+    "signupsCount" : 96,
+    "signupsSubheading" : "Number of sales initiated"
+}})
+
+
+db.statistics.update(
+   { _id: "1" },
+   { $set:
+     { "todayCount" : 8653,
+     "onboardedCount" : 73,
+     "signupsCount" : 93 
+          }})
